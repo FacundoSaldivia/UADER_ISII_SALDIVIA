@@ -36,11 +36,11 @@ def imprimirNCantidadDeNumerosPrimos(cantidad = 10):
 		x += 1
 	print(primeList)
 
-opcion = input('desea ingresar datos? (y/n): ')
+opcion = input('vuoi inserire i dati? (y/n): ')
 
 if opcion == 'y':
-	max = int(input("buscar numeros primos hasta que numero?: "))
-	count = int(input("buscar cuantos primos?: "))
+	max = int(input("trovare numeri primi fino a quale numero?: "))
+	count = int(input("trovare quanti cugini?: "))
 else:
 	max = 100
 	count = 10
